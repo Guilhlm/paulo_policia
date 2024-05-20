@@ -1,0 +1,48 @@
+.carrossel-container{
+    max-width: 100vw;
+    width: 80%;
+
+    position: relative;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+
+    overflow: hidden;
+}
+
+.carrossel{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carrossel-container button{
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    background-color: rgba(165, 9, 9, 0.5);
+    color: rgb(255, 255, 255);
+    padding: -10px;
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.carrossel-container button :hover{
+
+    color: rgba(0, 247, 255, 0.7);
+}
+
+.carrossel-container button.anterior{
+    left: 10px;
+}
+
+.carrossel-container button.proximo{
+    right: 10px;
+}
+
+.carrossel img{
+    width: 100%;
+}
