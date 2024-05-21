@@ -7,7 +7,7 @@ let indexSlidie = 0;
 function showSlide(index) {
     const carrossel = document.querySelector(".carrossel");
 
-    const totalSlide = 5;
+    const totalSlide = 4;
 
     if(index >= totalSlide ){
         indexSlidie = 0;
@@ -34,3 +34,10 @@ function proximoSlide() {
     showSlide(indexSlidie);
 
 } 
+
+
+//troca soziho 
+
+setInterval(() => {
+    proximoSlide()
+}, 10000);

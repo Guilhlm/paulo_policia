@@ -10,11 +10,13 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/rodape.css">
     <link rel="stylesheet" href="css/carrossel.css">
 
 </head>
 
-<body>
+<body style="background-color: #794e3a;">
     <header>
         <nav class="menu-perfil">
 
@@ -42,18 +44,17 @@
         <main class="carrossel-container">
 
             <div class="carrossel">
-                
+
                 <img src="img/banner/banner01.png" alt="banner01">
                 <img src="img/banner/banner2.png" alt="banner02">
                 <img src="img/banner/banner03.png" alt="banner03">
                 <img src="img/banner/banner04.png" alt="banner04">
 
-                <img src="img/banner_1.png" alt="">
             </div>
 
             <button class="anterior" onclick="javascript:anteriorSlide()"><i class="bi bi-caret-left"></i></button>
             <button class="proximo" onclick="javascript:proximoSlide()"><i class="bi bi-caret-right"></i></button>
-            
+
         </main>
     </section>
 
@@ -92,7 +93,7 @@
 
                         <!-- figcap eh o conteudo do card -->
 
-                        
+
                         <figcaption>
                             <h4>mirage</h4>
                             <span class="preco">R$ 130,00</span>
@@ -232,7 +233,7 @@
                                 <i class="bi bi-star-half"></i>
                                 <i class="bi bi-star"></i>
                             </span>
-                            
+
                         </figcaption>
                     </figure>
                 </div>
@@ -240,6 +241,52 @@
         </main>
     </section>
 
+    <!-- roda pe -->
+    <footer>
+        <main class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>MENU</h5>
+                    <ul class="list-unstyled mt-3">
+                        <li><a href="./index.html">inicio</a></li>
+                        <li><a href="./index.html#produtos">produos</a></li>
+                        <li><a href="./sobre.html">sobre</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>SOBRE AGENTE</h5>
+                    <ul class="list-unstyled mt-3">
+                        <li><a href="./sobre.html">inicio</a></li>
+                        <li><a href="./contato.php">contato</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>DESCUBRA MAIS</h5>
+                    <ul class="list-unstyled mt-3">
+                        <li><a href="./#c">carrinho</a></li>
+                        <li><a href="./index.html#produtos">produos</a></li>
+                        <li><a href="./sobre.html">novidades</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="social-icons mt3">
+                        <a href="#"><i class="bi bi-youtube"></i></a>
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>
+                    &copy; 2024. Este site foi desenvolvido junto a turma TI21 - SENAC AMERICANA. <br> Não reservamos os
+                    direitos e valores apresentados, são meramente ilustrativos para fins educacionais.
+                </p>
+            </div>
+        </main>
+    </footer>
 </body>
 
 <script src="js/script.js"></script>
